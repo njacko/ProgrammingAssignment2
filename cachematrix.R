@@ -1,14 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Nicholas Jackson
+## 2016
+## Programming Assignment 2 for the Coursera Course R Programming
+##
 
-## Write a short comment describing this function
+## makes a cached Matrix object (actually a list)
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## Returns the inverse of a matrix, using a cached version if available
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
